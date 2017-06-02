@@ -1,0 +1,36 @@
+.Coop {
+  display: flex;
+  justify-content: center;
+  background: #eeeeee;
+}
+
+.Coop-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Coop-list {
+  display: flex;
+  flex: 1 1 0%;
+  margin-bottom: 120px;
+  justify-content: space-around;
+}
+
+.Coop-item {
+  transform: translateY(-40px);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(90%);
+  transition: all 0.2s;
+  margin: 15px 0;
+}
+
+.Coop-item:hover {
+  filter: none;
+}
+
+.Coop-image {
+  max-width: 200px;
+}
